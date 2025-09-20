@@ -66,7 +66,7 @@ setTimeout(() => resolve(sorted), 250);
 
 async getTopStudentsAsync(count = 3){
 const sorted = [...this.students].sort((a,b) => b.gpa - a.gpa).slice(0,count);
-// return as resolved Promise implicitly
+
 return sorted;
 }
 
