@@ -57,7 +57,7 @@ this.showError(err);
 getTopStudentsPromise(count = 3){
 return new Promise((resolve) => {
 const sorted = [...this.students].sort((a,b) => b.gpa - a.gpa).slice(0,count);
-// small delay to simulate async op
+
 setTimeout(() => resolve(sorted), 250);
 });
 }
