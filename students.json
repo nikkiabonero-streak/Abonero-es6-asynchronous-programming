@@ -1,0 +1,27 @@
+[
+  {
+    "id": 101,
+    "name": "Alex Johnson",
+    "course": "Computer Science"
+  },
+  {
+    "id": 102,
+    "name": "Maria Garcia",
+    "course": "Biology"
+  },
+  {
+    "id": 103,
+    "name": "David Chen",
+    "course": "Mechanical Engineering"
+  },
+  {
+    "id": 104,
+    "name": "Sarah Miller",
+    "course": "Psychology"
+  },
+  {
+    "id": 105,
+    "name": "James Rodriguez",
+    "course": "Physics"
+  }
+]

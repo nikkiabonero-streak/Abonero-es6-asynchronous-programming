@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="ES6 Asynchronous Programming example: Fetch students.json, display student cards, shows Promises and async/await usage." />
+<title>Lastname ES6 Asynchronous Programming</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<main class="container">
+<header>
+<h1>Students Directory</h1>
+<p class="lead">Demonstration of ES6 classes, Fetch API, Promises (.then) and Async/Await</p>
+</header>
+
+
+<section class="controls">
+<input id="search" type="search" placeholder="Search student by name or course..." />
+<select id="sort">
+<option value="">Sort by</option>
+<option value="name-asc">Name A → Z</option>
+<option value="gpa-desc">GPA High → Low</option>
+</select>
+<button id="loadThen">Load (using .then)</button>
+<button id="loadAsync">Load (using async/await)</button>
+</section>
+
+
+<section id="output" class="grid"></section>
+
+
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
